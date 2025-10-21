@@ -1,1 +1,2 @@
 1.將自己的DCBOT TOKEN和頻道編號輸入至setting_josn
+2.def_funtion中的API_KEY也須更改
