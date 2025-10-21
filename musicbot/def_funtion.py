@@ -1,4 +1,4 @@
-API_key='AIzaSyBkLZCNCURkiHDczJ4vdT2Zgi2ymnhCixI'
+API_key=''
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 try:
@@ -12,6 +12,7 @@ def search_songUrl(u):
     reTitle=re['items'][0]['snippet']['title']
     reUrl=re['items'][0]['id']['videoId']
     return reUrl,reTitle
+
 
 
 
